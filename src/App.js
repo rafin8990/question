@@ -82,7 +82,7 @@ function App() {
           </div>
         </div>
         <div className="text-center bg-dark rounded-circle mb-3 w-0 h-100 p-3 ms-3 me-3">
-          {greenProgress} %
+          {greenProgress}
         </div>
         <div className="mb-3 w-100">
           <ProgressBar variant="danger" now={redProgress} label={`${redProgress}%`} />
